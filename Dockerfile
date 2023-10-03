@@ -15,4 +15,4 @@ WORKDIR /src
 
 EXPOSE 8000
 
-CMD ["gunicorn", "-b", "0.0.0.0:8000", "culture_site.wsgi:application"]
+CMD ["gunicorn", "-b", "0.0.0.0:8000", "config.wsgi:application"]
